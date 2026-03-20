@@ -18,13 +18,12 @@ body {
 .cards {
   padding: 50px 40px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(var(--columns), $card-width);
   gap: 46px 48px;
   justify-content: center;
   align-items: center;
 
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 
   @media (min-width: 488px) {
     --columns: 2;
